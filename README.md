@@ -1,20 +1,20 @@
 ## [Easy Digital Downloads - Commission Notes](https://wordpress.org/plugins/edd-commission-notes/)
 
-Commission Notes for Easy Digital Downloads allows you to record and store important notes alongside your commission records. Notes can be viewed by your vendors via the `{edd_commissions}` short code, and can optionally be recorded automatically when a discount code is applied at the checkout, or commissions are revoked.
+Commission Notes for Easy Digital Downloads allows you to record and store important notes alongside your commission records. Vendors can view the notes via the `{edd_commissions}` short code, and notes can be recorded automatically when a discount code is applied at the checkout, or when commissions are revoked.
 
 ## Use-case Examples
 
 Let’s look at some real-world examples of how Commission Notes could potentially be utilised in different scenarios:
 
-* Provide your vendors with detailed information relating to how and why the commission record was revoked, including data such as the payment and transaction IDs.
-* Let your vendors view when a discount code was used on an order they receive commissions for, helping them make more sense of the final amount rewarded
-* Add a commission note when an order looks suspicious or fraudulent, giving your vendors prior warning that the commission may be revoked
+* You want to provide your vendors with detailed information relating to how and why the commission record was revoked, including relational data such as the payment and transaction IDs.
+* You want to let your vendors view when a discount code was used on an order they receive commissions for, helping them make more sense of the final amount rewarded
+* You want to add a commission note when an order looks suspicious or fraudulent, giving your vendors prior warning that the commission may be revoked
 
 ## Features
 
 * Record commission notes on a per-commission basis
 * Store an unlimited number of notes on a per-commission basis
-* Automatically record a note, including the payment ID when an order is refunded
+* Automatically record a note, including the payment ID, when an order is refunded
 * Automatically record a note containing any discount codes used on the order where commissions were rewarded
 * All notes are viewable by your vendors via a responsive, lightweight modal-box on the front-end `{edd_commissions}` short code
 * Seamless integration with Easy Digital Downloads and Commissions settings
@@ -73,5 +73,5 @@ Anyone is welcome to contribute to Commission Fees.
 There are various ways you can contribute:
 
 1. Raise an [Issue](https://github.com/davidsherlock/edd-commission-notes/issues) on GitHub
-2. Send us a Pull Request with your bug fixes and/or new features. Please open an issue beforehand if one does not currently exist.
+2. Send us a Pull Request with your bug fixes and/or new features. Please open an issue before-hand if one does not currently exist.
 3. Provide feedback and suggestions on [enhancements](https://github.com/davidsherlock/edd-commission-notes/issues?direction=desc&labels=Enhancement&page=1&sort=created&state=open)
