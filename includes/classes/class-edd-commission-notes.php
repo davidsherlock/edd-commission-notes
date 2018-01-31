@@ -37,7 +37,7 @@ class EDDC_Notes extends EDD_Commission {
 	 * @since  1.0.0
 	 * @param  integer $length The number of notes to get
 	 * @param  integer $paged What note to start at
-	 * @return array           The notes requsted
+	 * @return array The notes requsted
 	 */
 	public function get_notes( $length = 20, $paged = 1 ) {
 
