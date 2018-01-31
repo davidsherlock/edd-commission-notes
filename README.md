@@ -30,6 +30,8 @@ Commission Notes was developed with developers and third party integrations in m
 
 **get_notes()**
 
+Get the parsed notes for a commission as an array.
+
 ~~~~
 $notes = new EDDC_Notes( $commission->id );
 $notes->get_notes();
@@ -37,12 +39,16 @@ $notes->get_notes();
 
 **add_note( $note = '' )**
 
+Add a note to the commission record. Returns the new note if added successfully, false otherwise.
+
 ~~~~
 $notes = new EDDC_Notes( $commission->id );
 $notes->add_note( 'Hello Friend' );
 ~~~~
 
 **get_notes_count()**
+
+Get the total number of notes we have after parsing.
 
 ~~~~
 $notes = new EDDC_Notes( $commission->id );
