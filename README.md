@@ -62,7 +62,7 @@ For detailed setup instructions, visit the official [Documentation](https://sell
 1. You can clone the GitHub repository: `https://github.com/davidsherlock/edd-commission-notes.git`
 2. Or download it directly as a ZIP file: `https://github.com/davidsherlock/edd-commission-notes/archive/master.zip`
 
-This will download the latest developer copy of Commission Fees.
+This will download the latest developer copy of Commission Notes.
 
 ## Bugs
 
@@ -70,11 +70,11 @@ If you find an issue, let us know [here](https://github.com/davidsherlock/edd-co
 
 ## Support
 
-This is a developer's portal for Commission Fees and should _not_ be used for support. Please visit the [support page](https://wordpress.org/support/plugin/edd-commission-notes) if you need to submit a support request.
+This is a developer's portal for Commission Notes and should _not_ be used for support. Please visit the [support page](https://wordpress.org/support/plugin/edd-commission-notes) if you need to submit a support request.
 
 ## Contributions
 
-Anyone is welcome to contribute to Commission Fees.
+Anyone is welcome to contribute to Commission Notes.
 
 There are various ways you can contribute:
 
