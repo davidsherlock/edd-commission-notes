@@ -1,6 +1,6 @@
 ## [Easy Digital Downloads - Commission Notes](https://wordpress.org/plugins/edd-commission-notes/)
 
-Commission Notes for Easy Digital Downloads allows you to record and store important notes alongside your commission records. Vendors can view the notes via the `{edd_commissions}` short code, and notes can be recorded automatically when a discount code is applied at the checkout, or when commissions are revoked.
+**Commission Notes** for Easy Digital Downloads allows you to record and store important notes alongside your commission records. Vendors can view the notes via the `{edd_commissions}` short code, and notes can be recorded automatically when a discount code is applied at the checkout, or when commissions are revoked.
 
 ## Use-case Examples
 
