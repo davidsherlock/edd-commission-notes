@@ -90,18 +90,18 @@ if ( ! class_exists( 'EDD_Commission_Notes' ) ) {
                 // Include admin commission actions
                 require_once EDD_COMMISSION_NOTES_DIR . 'includes/admin/commissions-actions.php';
 
-                // Include admin scripts
+                // Include admin settings
                 require_once EDD_COMMISSION_NOTES_DIR . 'includes/admin/settings.php';
 
             }
 
-            // Include admin scripts
+            // Include scripts
             require_once EDD_COMMISSION_NOTES_DIR . 'includes/scripts.php';
 
-            // Include admin scripts
+            // Include commission actions
             require_once EDD_COMMISSION_NOTES_DIR . 'includes/commission-actions.php';
 
-            // Include frontend short codes
+            // Include frontend short-codes
             require_once EDD_COMMISSION_NOTES_DIR . 'includes/short-codes.php';
 
             // Include EDDC_Notes class
@@ -160,7 +160,7 @@ if ( ! class_exists( 'EDD_Commission_Notes' ) ) {
         }
 
         /**
-    	 * Make sure we are at the minimum version of EDD Commissions - which is 3.3.
+    	 * Make sure we are at the minimum version of EDD Commissions - which is 3.4.6.
     	 *
     	 * @since       1.0.0
     	 * @access      public
@@ -171,7 +171,7 @@ if ( ! class_exists( 'EDD_Commission_Notes' ) ) {
             if ( defined( 'EDD_COMMISSIONS_VERSION' ) && version_compare( EDD_COMMISSIONS_VERSION, '3.4.5' ) == -1 ) {
             	?>
             	<div class="notice notice-error">
-    	        <p><?php echo __( 'EDD Commission Notes: Your version of EDD Commissions must be updated to version 3.4.6 or later to use the Commission Fees extension in conjunction with Commissions.', 'edd-commission-notes' ); ?></p>
+    	        <p><?php echo __( 'EDD Commission Notes: Your version of EDD Commissions must be updated to version 3.4.6 or later to use the Commission Notes extension in conjunction with Commissions.', 'edd-commission-notes' ); ?></p>
             	</div>
             	<?php
             }
